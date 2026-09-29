@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#08233b" />
+  <title>ELYARA Creative | Web Design, Marketing & Print</title>
+  <meta name="description" content="ELYARA Creative builds elegant websites, branding, advertising, print, merch and promotional materials for growing businesses." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo.png" />
+</head>
+<body>
+  <div class="announcement">
+    <div class="announcement__inner">
+      <span data-i18n="bar_services">Web Design · Branding · Marketing · Printing · Merch</span>
+      <span class="announcement__tag" data-i18n="bar_tagline">Helping Businesses Grow Beautifully</span>
+      <span class="announcement__right">U.S. Based <span aria-hidden="true">|</span> Global Vision ♡</span>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="nav-shell">
+      <a class="brand" href="#top" aria-label="ELYARA Creative home">
+        <img src="assets/logo.png" alt="ELYARA Creative logo" />
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#top" data-i18n="nav_home">Home</a>
+        <a href="#about" data-i18n="nav_about">Who We Are</a>
+        <a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a>
+        <a href="#catalog" data-i18n="nav_catalog">Catalog</a>
+        <a href="#marketing" data-i18n="nav_marketing">Marketing</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" type="button" aria-label="Search" id="searchToggle">⌕</button>
+        <div class="language-wrap">
+          <button class="language-btn" id="languageButton" type="button" aria-expanded="false">
+            <span>◎</span><span id="languageLabel">English</span><span class="chevron">⌄</span>
+          </button>
+          <div class="language-menu" id="languageMenu" role="menu">
+            <button data-lang="en">🇺🇸 English</button>
+            <button data-lang="es">🇲🇽 Español</button>
+            <button data-lang="pt">🇧🇷 Português</button>
+            <button data-lang="it">🇮🇹 Italiano</button>
+            <button data-lang="fr">🇫🇷 Français</button>
+            <button data-lang="zh">🇨🇳 中文</button>
+          </div>
+        </div>
+        <button class="google-btn" id="googleLogin" type="button">
+          <span class="google-g">G</span><span data-i18n="google_signin">Sign in with Google</span>
+        </button>
+        <button class="menu-btn" id="menuToggle" aria-label="Open menu" type="button">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#top" data-i18n="nav_home">Home</a>
+      <a href="#about" data-i18n="nav_about">Who We Are</a>
+      <a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a>
+      <a href="#catalog" data-i18n="nav_catalog">Catalog</a>
+      <a href="#marketing" data-i18n="nav_marketing">Marketing</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__content section-shell">
+        <div class="hero__copy">
+          <div class="eyebrow" data-i18n="hero_kicker">YOUR VISION. OUR CREATIVITY.</div>
+          <h1 data-i18n="hero_title">Create. Elevate. Inspire.</h1>
+          <div class="accent-line"></div>
+          <p data-i18n="hero_body">We create stunning websites, menus, flyers, business cards, printing, merch, embroidery, and digital advertising to help businesses stand out and grow.</p>
+          <div class="hero__buttons">
+            <a class="btn btn--navy" href="#portfolio"><span data-i18n="view_portfolio">View Portfolio</span><span>→</span></a>
+            <a class="btn btn--outline" href="#contact"><span data-i18n="get_quote">Get a Quote</span><span>→</span></a>
+          </div>
+          <div class="hero__features">
+            <article>
+              <span class="feature-icon">▰</span>
+              <div><strong data-i18n="hero_websites">WEBSITES</strong><small data-i18n="hero_websites_sub">Modern. Fast. Results-Driven.</small></div>
+            </article>
+            <article>
+              <span class="feature-icon">▥</span>
+              <div><strong data-i18n="hero_ads">ADVERTISING</strong><small data-i18n="hero_ads_sub">More Visibility. More Customers.</small></div>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-label="ELYARA Creative studio preview">
+          <img src="assets/hero-studio.jpg" alt="ELYARA Creative web design studio mockup" />
+          <div class="floating-card floating-card--one">
+            <span data-i18n="floating_web">WEB DESIGN</span>
+            <strong data-i18n="floating_web_value">Elegant. Fast. Strategic.</strong>
+          </div>
+          <div class="floating-card floating-card--two">
+            <span data-i18n="floating_growth">BUSINESS GROWTH</span>
+            <strong data-i18n="floating_growth_value">Brand · Ads · Content</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section-shell" id="catalog">
+      <div class="section-heading">
+        <span data-i18n="services_kicker">WHAT WE DO</span>
+        <h2 data-i18n="services_title">Creative Solutions for Every Business</h2>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card service-card--featured">
+          <div class="service-visual website-visual"><span>www.</span><div></div></div>
+          <h3 data-i18n="service_websites">Websites</h3>
+          <p data-i18n="service_websites_desc">Custom business websites, landing pages, multilingual sites and online platforms.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-visual menu-visual"><span>MENU</span><i></i><i></i><i></i></div>
+          <h3 data-i18n="service_menus">Menus</h3>
+          <p data-i18n="service_menus_desc">Restaurant, event and digital menus designed to sell and communicate clearly.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-visual flyer-visual"><span>GRAND<br>OPENING</span></div>
+          <h3 data-i18n="service_flyers">Flyers</h3>
+          <p data-i18n="service_flyers_desc">Promotional flyers for print, social media and local campaigns.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-visual card-visual"><b>EC</b><span>ELYARA</span></div>
+          <h3 data-i18n="service_cards">Business Cards</h3>
+          <p data-i18n="service_cards_desc">Premium business cards, digital contact cards and branded stationery.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-visual print-visual"><span>PRINT</span></div>
+          <h3 data-i18n="service_print">Printing</h3>
+          <p data-i18n="service_print_desc">Signs, labels, stickers, brochures, invitations and promotional materials.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-visual embroidery-visual"><span>EC</span></div>
+          <h3 data-i18n="service_embroidery">Embroidery</h3>
+          <p data-i18n="service_embroidery_desc">Logo embroidery for uniforms, caps, polos and branded apparel.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-visual merch-visual"><span>ELYARA</span><b>CREATIVE</b></div>
+          <h3 data-i18n="service_merch">Merch</h3>
+          <p data-i18n="service_merch_desc">Branded merchandise, gifts, apparel and custom promotional products.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-visual branding-visual"><span>EC</span></div>
+          <h3 data-i18n="service_branding">Branding</h3>
+          <p data-i18n="service_branding_desc">Visual identity, logos, brand systems and cohesive business materials.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-visual social-visual"><span>f</span><span>◎</span></div>
+          <h3 data-i18n="service_social">Social Media Ads</h3>
+          <p data-i18n="service_social_desc">Creative content and campaigns for Facebook, Instagram and TikTok.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-visual ads-visual"><b>↗</b><span>ADS</span></div>
+          <h3 data-i18n="service_ads">Digital Advertising</h3>
+          <p data-i18n="service_ads_desc">Campaign strategy, ad creative, audience targeting and performance optimization.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="portfolio section-shell" id="portfolio">
+      <div class="section-heading">
+        <span data-i18n="portfolio_kicker">FEATURED PORTFOLIO</span>
+        <h2 data-i18n="portfolio_title">Real Businesses. Real Results.</h2>
+      </div>
+
+      <div class="portfolio-grid">
+        <a class="project-card" href="https://mezcalchuparrosa.com" target="_blank" rel="noopener">
+          <img src="assets/portfolio-chuparrosa.jpg" alt="Mezcal Chuparrosa website project" />
+          <div class="project-card__body"><h3>mezcalchuparrosa.com</h3><p data-i18n="project_chuparrosa">Website · Branding · Marketing</p><span data-i18n="visit_site">Visit site →</span></div>
+        </a>
+        <a class="project-card" href="https://sandrasfamilychildcare.com" target="_blank" rel="noopener">
+          <img src="assets/portfolio-sandras.jpg" alt="Sandra's Family Childcare website project" />
+          <div class="project-card__body"><h3>sandrasfamilychildcare.com</h3><p data-i18n="project_sandras">Website · Branding · Print</p><span data-i18n="visit_site">Visit site →</span></div>
+        </a>
+        <a class="project-card" href="https://cumbredeidentidad.com" target="_blank" rel="noopener">
+          <img src="assets/portfolio-cumbre.jpg" alt="Cumbre de Identidad website project" />
+          <div class="project-card__body"><h3>cumbredeidentidad.com</h3><p data-i18n="project_cumbre">Website · Platform · Branding</p><span data-i18n="visit_site">Visit site →</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="marketing" id="marketing">
+      <div class="section-shell marketing__grid">
+        <div>
+          <div class="eyebrow" data-i18n="marketing_kicker">MARKETING FOR BUSINESSES</div>
+          <h2 data-i18n="marketing_title">Your External Marketing Team</h2>
+          <p data-i18n="marketing_body">We help businesses get noticed, attract more customers, and grow through strategic digital advertising and social media promotion.</p>
+          <a class="btn btn--copper" href="#contact"><span data-i18n="grow_business">Grow Your Business</span><span>→</span></a>
+        </div>
+        <div class="marketing-steps">
+          <article><span>◎</span><h3 data-i18n="market_strategy">Ad Campaign Strategy</h3><p data-i18n="market_strategy_desc">Reach the right people with the right message.</p></article>
+          <article><span>▥</span><h3 data-i18n="market_social">Social Media Management</h3><p data-i18n="market_social_desc">Engaging content that builds your brand.</p></article>
+          <article><span>◉</span><h3 data-i18n="market_results">More Customers. Real Results.</h3><p data-i18n="market_results_desc">Turn views into loyal customers.</p></article>
+        </div>
+        <div class="platform-panel">
+          <div class="platform-icons"><span>f</span><span>◎</span><span>♪</span></div>
+          <h3 data-i18n="ads_results">ADS THAT GET RESULTS</h3>
+          <ul>
+            <li data-i18n="ad_targeted">Targeted Ad Campaigns</li>
+            <li data-i18n="ad_content">Content Creation</li>
+            <li data-i18n="ad_tracking">Performance Tracking</li>
+            <li data-i18n="ad_optimization">Ongoing Optimization</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-shell" id="about">
+      <div class="about__media"><img src="assets/about-studio.jpg" alt="Creative professional working at a desk" /></div>
+      <div class="about__copy">
+        <div class="eyebrow" data-i18n="about_kicker">WHO WE ARE</div>
+        <h2 data-i18n="about_title">A Creative Studio for Growing Businesses</h2>
+        <p data-i18n="about_body">ELYARA Creative is a U.S.-market-focused creative studio dedicated to helping businesses bring their vision to life through thoughtful design, powerful web presence, strategic advertising and high-quality promotional materials. We combine creativity, strategy and personal support to help brands look professional, attract more customers and make a lasting impression.</p>
+      </div>
+      <div class="about__list">
+        <div><span>♡</span><span data-i18n="about_point1">Creative & Strategic Approach</span></div>
+        <div><span>☆</span><span data-i18n="about_point2">High-Quality Design & Materials</span></div>
+        <div><span>♙</span><span data-i18n="about_point3">Personalized Support</span></div>
+        <div><span>▥</span><span data-i18n="about_point4">Focused on Your Growth</span></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-shell contact__grid">
+        <div>
+          <div class="eyebrow" data-i18n="contact_kicker">LET'S WORK TOGETHER</div>
+          <h2 data-i18n="contact_title">Get in Touch</h2>
+          <p data-i18n="contact_body">Tell us about your project. We’d love to help bring your ideas to life.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" name="name" required data-i18n-placeholder="form_name" placeholder="Full Name" />
+          <input type="email" name="email" required data-i18n-placeholder="form_email" placeholder="Email" />
+          <input type="text" name="business" data-i18n-placeholder="form_business" placeholder="Business Name" />
+          <select name="service" required>
+            <option value="" data-i18n="form_help">How can we help?</option>
+            <option value="website" data-i18n="service_websites">Websites</option>
+            <option value="marketing" data-i18n="service_ads">Digital Advertising</option>
+            <option value="branding" data-i18n="service_branding">Branding</option>
+            <option value="print" data-i18n="service_print">Printing</option>
+            <option value="merch" data-i18n="service_merch">Merch</option>
+          </select>
+          <textarea name="message" rows="4" required data-i18n-placeholder="form_message" placeholder="Tell us about your project"></textarea>
+          <button class="btn btn--navy" type="submit"><span data-i18n="send_message">Send Message</span><span>→</span></button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+        <div class="contact-details">
+          <p><strong data-i18n="contact_email">Email</strong><span id="contactEmail">Add your business email in config.js</span></p>
+          <p><strong data-i18n="contact_phone">Phone / WhatsApp</strong><span id="contactPhone">Add your number in config.js</span></p>
+          <p><strong data-i18n="contact_market">Market</strong><span data-i18n="contact_market_value">United States · International clients welcome</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="section-shell footer-grid">
+      <div class="footer-brand"><img src="assets/logo.png" alt="ELYARA Creative" /><p>CREATE. ELEVATE. INSPIRE.</p></div>
+      <div class="footer-links">
+        <a href="#top" data-i18n="nav_home">Home</a><a href="#about" data-i18n="nav_about">Who We Are</a><a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a><a href="#catalog" data-i18n="nav_catalog">Catalog</a><a href="#marketing" data-i18n="nav_marketing">Marketing</a><a href="#contact" data-i18n="nav_contact">Contact</a>
+      </div>
+      <div class="footer-social"><span>f</span><span>◎</span><span>♪</span><span>▶</span><span>in</span></div>
+      <p class="footer-copy">© <span id="year"></span> ELYARA Creative. <span data-i18n="rights">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <div class="search-overlay" id="searchOverlay" aria-hidden="true">
+    <div class="search-box">
+      <button class="search-close" id="searchClose" aria-label="Close search">×</button>
+      <label for="siteSearch" data-i18n="search_label">What are you looking for?</label>
+      <input id="siteSearch" type="search" data-i18n-placeholder="search_placeholder" placeholder="Websites, flyers, advertising..." />
+      <div id="searchResults"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="translations.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
